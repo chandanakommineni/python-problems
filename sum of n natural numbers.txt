@@ -1,0 +1,13 @@
+# a=int(input(""))
+# count=0
+# for i in range(0,a+1):
+#     count=count+i
+# print(count)
+
+
+a=int(input(""))
+b=a*(a+1)//2
+print(b)
+
+
+    

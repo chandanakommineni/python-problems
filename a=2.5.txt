@@ -1,0 +1,5 @@
+a=2.5
+b=3.6
+c=a*b
+print("area: {:.2f} ".format(c))
+print("area of %.2f" % (c) )

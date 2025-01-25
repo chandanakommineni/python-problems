@@ -1,0 +1,40 @@
+# def is_palindrome(s):
+#     return s == s[::-1]
+
+# # Example usage
+# v = input("Enter a string: ")
+# if is_palindrome(v):
+#     print(f'"{v}" is a palindrome.')
+# else:
+#     print(f'"{v}" is not a palindrome.')
+    
+    
+    
+# a=input("")
+# b=[]
+# for i in a[::-1]:
+#     b.append(i)
+# print(b)
+# if a==b:
+#     print("palindrome")
+# else:
+#     print("not")
+    
+    
+    
+# a=input("")
+# b=''.join(reversed(a))
+# if a==b:
+#     print("palindrome")
+# else:
+#     print("not")
+    
+a=input("")
+b=""
+for i in (a):
+    b=i+b
+if a==b:
+    print("yes")
+else:
+    print("no")
+    

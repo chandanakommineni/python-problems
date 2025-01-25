@@ -1,0 +1,14 @@
+
+a=int(input(""))
+b=int(input(""))
+c=int(input(""))
+d=b**2-4*a*c
+if(d>0):
+    print(-b+(d**0.5))/(2*a)
+    print(-b-(d**0.5))/(2*a)
+elif(d==0):
+    print(-b/(2*a))
+else:
+    real_part = -b / (2*a)
+    imaginary_part = ((d)**0.5) / (2*a)
+    print("Complex roots: {} + {}i and {} - {}i".format(real_part,imaginary_part, real_part, imaginary_part))

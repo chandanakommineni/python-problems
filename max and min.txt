@@ -1,0 +1,31 @@
+# a=input("").split()
+# min=int(a[0])
+# max=int(a[0])
+# i=0
+# while (i< len(a)):
+#     ha=int(a[i])
+#     if (ha>max):
+#         max=ha
+        
+#     if(ha<max):
+#         min=ha
+#     i=i+1
+# print(min)
+# print(max)
+
+a=input("").split()
+min=int(a[0])
+max=int(a[0])
+for i in a:
+    ha=int(i)
+    if (ha>max):
+        max=ha
+        
+    if(ha<max):
+        min=ha
+  
+print(min)
+print(max)
+
+
+    

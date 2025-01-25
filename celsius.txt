@@ -1,0 +1,8 @@
+
+celsius=int(input(""))
+def fah(celsius):
+    fahren=celsius*9/5+32
+    kelvin=celsius+273.15
+    print(fahren)
+    print(f"{kelvin:.2f}")
+fah(celsius)

@@ -1,0 +1,15 @@
+# a=input("").split()
+# count=0
+# for i in a:
+#     hai=int(i)
+#     count = count + hai
+    
+# print(count)
+
+a=input("").split()
+count=0
+for i in range(0,len(a)):
+    hai=int(a[i])
+    count = count + hai
+    
+print(count)
